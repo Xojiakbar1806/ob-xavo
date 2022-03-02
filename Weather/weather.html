@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Montserrat&family=Open+Sans:wght@500&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="asosiy">
+    <div class="weather">
+        <div class="title"><h1 id="dayy">Monday</h1><p id="day">1 March 2022</p><span id="name">Tashkent</span></div>
+            <div class="ob-xavo">
+                <div>
+                    <p id="gradus">16°C</p>
+                </div>
+                <h2 id="desc">Sunny</h2>
+            </div>
+    </div>
+    <div class="about">
+        <div class="narsalari">
+            <h3>Max Temp: <span class="right" id="des">15°C</span></h3>
+            <h3>Himidity: <span class="right" id="humidity">0 %</span></h3>
+            <h3>Wind: <span class="right" id="wind">0 m/s</span></h3>
+        </div>
+        <div class="narsa">
+            <div class="kun1 kun activ"><h4>Tue</h4><p id="today">29°C</p></div>
+            <div class="kun2 kun"><h4>Wen</h4><p>21</p></div>
+            <div class="kun3 kun"><h4>Thu</h4><p>08°C</p></div>
+            <div class="kun4 kun"><h4>Fry</h4><p>19°C</p></div>
+        </div>
+        <button class="change" onclick = "choose()">Change location</button>
+    </div>
+</div>
+<div class="choose">
+    <h1>Choose region!</h1>
+    <center><div class="custom-select" style="width:100%;">
+        <select id="select">
+          <option value="Tashkent">Tashkent</option>
+          <option value="Andijan">Andijan</option>
+          <option value="Bukhara">Bukhara</option>
+          <option value="Fergana">Fergana</option>
+          <option value="Namangan">Namangan</option>
+          <option value="Sirdaryo">Sirdaryo</option>
+          <option value="Jizzakh">Jizzakh</option>
+          <option value="Samarkand">Samarkand</option>
+          <option value="Navoiy">Navoiy</option>
+          <option value="Khiva">Khiva</option>
+          <option value="Qashqadaryo">Qashqadaryo</option>
+          <option value="Termez">Termez</option>
+        </select>
+      </div>
+      <button class="btn1" onclick="tanlash()">Weather</button></center>
+</div>
+    <h2 id="autor">Created by <a href="https://t.me/PortfolioKhojiakbar">Khojiakbar Abdulboriyev</a></h2>
+    <script src="chopma.js"></script>
+</body>
+</html>
